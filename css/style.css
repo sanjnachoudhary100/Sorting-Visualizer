@@ -71,8 +71,12 @@ nav .header_right .algos {
   display: grid;
   -ms-grid-columns: (16.66667%)[6];
       grid-template-columns: repeat(6, 16.66667%);
-  place-content: center;
-  padding: 2% 0%;
+  /* place-content: center; */
+  margin-bottom:5px;
+  /* padding:2px; */
+ display:flex;
+ justify-content:space-around;
+ 
 }
 
 nav .header_right .algos button {
@@ -80,13 +84,17 @@ nav .header_right .algos button {
   border: none;
   color: white;
   outline: none;
-  padding: 5% 0%;
+  padding: 2% 2%;
+  /* margin-left: 0px; */
+  /* margin-left: 5px; */
   font-size: x-large;
 }
 
 nav .header_right .algos button:hover {
   background-color: blue;
   cursor: pointer;
+  border-radius: 5px;
+  
 }
 
 nav .header_right .algos .butt_locked {
